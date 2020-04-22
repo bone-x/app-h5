@@ -1,0 +1,98 @@
+/* vant 框架样式重定义 */
+/* load 样式*/
+.van-toast {
+  /* width: 160px; */
+  background-color: rgba(50, 50, 51, .88);
+  border-radius: 8px;
+  opacity: .8;
+  /* transform: none; */
+  /* margin: -18% 0 0 -80px; */
+}
+
+.van-overlay {
+  /* background: transparent; */
+}
+
+.van-loading__spinner {
+  width: 60px;
+  height: 60px;
+}
+
+.van-toast__text {
+  margin-top: 20px;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.van-toast--text .van-toast__text {
+  line-height: 45px;
+}
+
+.van-dialog {
+  width: 600px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.van-dialog__content {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 400;
+  color: #3A3C42;
+  height: 153px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.van-dialog__footer--buttons {
+  width: 100%;
+  height: 96px;
+  line-height: 96px;
+}
+
+.van-button {
+  /* height: 100%; */
+  font-size: 32px;
+  font-weight: 400;
+  width: 100%;
+  height: 96px;
+  line-height: 96px;
+}
+
+.van-dialog .van-button {
+  /* border: 2px solid red */
+  border-top: 2px solid #EDEDED;
+}
+
+.van-dialog__cancel {
+  color: #6C7179;
+}
+
+.van-dialog__confirm {
+  color: #00AB84;
+}
+
+.van-action-sheet {
+  height: 816px;
+  width: 100%;
+  position: fixed;
+  bottom: 96px;
+  overflow: auto;
+  background-color: #fffff1;
+  border-radius: 24px 24px 0px 0px;
+}
+
+
+.van-tabs--line {
+  padding-top: 0;
+}
+
+.van-tabs__wrap {
+  position: relative;
+}
+
+/* end  load */
